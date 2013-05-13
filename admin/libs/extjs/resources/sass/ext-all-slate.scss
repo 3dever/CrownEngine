@@ -1,0 +1,87 @@
+$theme-name: 'slate';
+
+$color1: #abc;
+$color2: #3e546b;
+
+$include-missing-images: true;
+$base-color: $color1;
+
+//panel
+$panel-header-color: #fff;
+$panel-header-background-color: $color2;
+$panel-border-color: darken($color1, 5);
+
+//grid
+$grid-header-color: #fff;
+$grid-header-background-color: darken($color1,25);
+$grid-header-over-background-color: $color2;
+$grid-header-background-gradient: 'glossy';
+$grid-header-over-background-gradient: 'glossy';
+
+$grid-row-cell-alt-background: lighten($color1,20);
+$grid-row-cell-over-background-color: lighten($color1,10);
+$grid-row-cell-over-background-gradient: 'flat';
+$grid-row-cell-focus-background-gradient: 'flat';
+
+//window
+$window-background-color: $color1;
+
+//buttons
+$button-default-color: #fff;
+$button-default-base-color: $color2;
+$button-default-base-color-over: darken($color1,25);
+$button-default-base-color-pressed: darken($color1, 15);
+$button-default-background-gradient-over: 'glossy';
+$button-default-background-gradient-pressed: 'glossy';
+
+$button-toolbar-border-color-pressed: darken($color1,25);
+$button-toolbar-background-color-pressed: darken($color1,25);
+$button-toolbar-border-color-over: darken($color1,25);
+$button-toolbar-background-color-over: darken($color1, 5);
+$button-toolbar-background-gradient: null;
+$button-toolbar-background-gradient-over: 'glossy';
+$button-toolbar-background-gradient-focus: 'glossy';
+$button-toolbar-background-gradient-pressed: 'glossy';
+$button-toolbar-background-gradient-disabled: null;
+$button-toolbar-color: $color2 !default;
+$button-toolbar-color-over: #fff !default;
+$button-toolbar-color-pressed: #fff !default;
+
+//tabs
+$tab-height: 25px;
+
+$tab-base-color: $color1;
+$tab-background-gradient: null;
+$tab-base-color-over: darken($color1, 10);
+$tab-base-color-active: $color2;
+$tab-color-active: #fff;
+
+$tabbar-strip-background-color: $color2;
+
+//progress bar
+$progress-bar-background-color: darken($color1,25);
+
+//fieldsets
+$fieldset-border-color: $color2;
+
+//datepicker
+$datepicker-header-background-color: $color2;
+$datepicker-header-background-gradient: 'glossy';
+$datepicker-today-item-background-color: $color1;
+$datepicker-today-item-border-color: $color2;
+
+$datepicker-th-background-color: $color1;
+$datepicker-th-color: $color2;
+$datepicker-th-border-bottom-color: $color2;
+$datepicker-item-color: #000;
+$datepicker-item-hover-background-color: lighten($color1, 15);
+$datepicker-selected-item-border-color: $color2;
+$datepicker-selected-item-background-color: $color1;
+$datepicker-monthpicker-item-color: #fff;
+
+//layout
+$accordion-header-color: $color2;
+$accordion-header-background-color: $color1;
+
+@import 'compass';
+@import 'ext4/default/all';

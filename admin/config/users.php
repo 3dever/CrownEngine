@@ -1,0 +1,1 @@
+<?php $config["users"]='[{"name":"werwer","password":"","role":""},{"name":"test1","password":"","role":"Support"},{"name":"guest1","password":"1","role":"Guest"},{"name":"admin","password":"admin","role":"Admin"}]';

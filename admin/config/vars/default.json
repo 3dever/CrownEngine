@@ -1,0 +1,23 @@
+{
+    "new_player_entities": {
+    "entityId": 0
+},
+
+    "entities": [
+        {
+            "required": true,
+            "name": "position",
+            "hint": "X, Y, Z position in the game space"
+        },
+        {
+            "name": "stage",
+            "hint": "Object stage in the game"
+        }
+    ],
+
+    "scenes": {
+        "field1": "value1",
+        "field2": "value2"
+    }
+
+}
